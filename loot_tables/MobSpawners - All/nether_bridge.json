@@ -1,0 +1,181 @@
+{
+    "pools": [
+        {
+		"rolls":1,
+		"entries": [
+			{
+				"type":"item",
+				"name":"minecraft:armor_stand",
+				"weight":1,
+				"functions": [
+					{
+						"function":"set_nbt",
+						"tag":"{display:{Name:\"Blaze Spawner\",Lore:[\"Place to create a blaze spawner\"]},EntityTag:{Invisible:1,Tags:[\"BlazeSpawner\"]}}"
+					}
+				]
+			},
+			{
+				"type":"item",
+				"name":"minecraft:armor_stand",
+				"weight":1,
+				"functions": [
+					{
+						"function":"set_nbt",
+						"tag":"{display:{Name:\"Ghast Spawner\",Lore:[\"Place to create a ghast spawner\"]},EntityTag:{Invisible:1,Tags:[\"GhastSpawner\"]}}"
+					}
+				]
+			},
+			{
+				"type":"item",
+				"name":"minecraft:armor_stand",
+				"weight":1,
+				"functions": [
+					{
+						"function":"set_nbt",
+						"tag":"{display:{Name:\"Magma Cube Spawner\",Lore:[\"Place to create a magma cube spawner\"]},EntityTag:{Invisible:1,Tags:[\"MagmaCubeSpawner\"]}}"
+					}
+				]
+			},
+			{
+				"type":"item",
+				"name":"minecraft:armor_stand",
+				"weight":1,
+				"functions": [
+					{
+						"function":"set_nbt",
+						"tag":"{display:{Name:\"Wither Skeleton Spawner\",Lore:[\"Place to create a wither skeleton spawner\"]},EntityTag:{Invisible:1,Tags:[\"WitherSkeletonSpawner\"]}}"
+					}
+				]
+			},
+			{
+				"type":"item",
+				"name":"minecraft:armor_stand",
+				"weight":1,
+				"functions": [
+					{
+						"function":"set_nbt",
+						"tag":"{display:{Name:\"Zombie Pigman Spawner\",Lore:[\"Place to create a zombie pigman spawner\"]},EntityTag:{Invisible:1,Tags:[\"ZombiePigmanSpawner\"]}}"
+					}
+				]
+			},
+			{
+                "type": "empty",
+                "weight": 20
+            }
+		]
+		},
+		{
+            "rolls": {
+                "min": 2,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ],
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 15
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_sword",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_chestplate",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:flint_and_steel",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:nether_wart",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 7
+                            }
+                        }
+                    ],
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:saddle",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_horse_armor",
+                    "weight": 8
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_horse_armor",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_horse_armor",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:obsidian",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 2
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "display": 
+	{
+		"icon": 
+		{
+            "item": "minecraft:ghast_tear"
+        },
+        "title": "Mistakes were made!",
+        "description": "Misdirect a ghast fireball, fatally...",
+		"hidden": true
+    },
+    "parent": "Badgercrafting:root",
+       "criteria": {
+        "shot_arrow": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:fireball"
+                        }
+                    }
+                },
+				"entity":{
+					"type": "zombie_pigman"
+				}
+            }
+        }
+    }
+}

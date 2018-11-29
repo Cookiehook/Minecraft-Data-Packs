@@ -1,0 +1,786 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skull",
+			"data": 3
+			},
+        "title": "Off with their head!",
+        "description": "Collect all mob heads",
+		"frame": "challenge"
+    },
+    "parent": "Badgercrafting:suicide_bunny",
+	"rewards":
+	{
+		"loot":["badgercrafting:advancements/off_with_their_heads"],
+		"function":"badgercrafting:advancements/small_increase_border"
+	},
+    "criteria": {
+        "bat_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Bat Head\"}}"
+                    }
+                ]
+            }
+        },
+        "blaze_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,	
+						"nbt": "{display:{LocName:\"Blaze Head\"}}"
+                    }
+                ]
+            }
+        },
+        "cave_spider_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Cave Spider Head\"}}"
+                    }
+                ]
+            }
+        },
+        "chicken_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Chicken Head\"}}"
+                    }
+                ]
+            }
+        },
+		"cow_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Cow Head\"}}"
+                    }
+                ]
+            }
+        },
+		"donkey_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Donkey Head\"}}"
+                    }
+                ]
+            }
+        },
+		"chicken_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Chicken Head\"}}"
+                    }
+                ]
+            }
+        },
+		"elder_guardian_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Elder Guardian Head\"}}"
+                    }
+                ]
+            }
+        },
+		"ender_dragon": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 5
+                    }
+                ]
+            }
+        },
+		"enderman_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Enderman Head\"}}"
+                    }
+                ]
+            }
+        },
+		"evocation_illager_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Evoker Head\"}}"
+                    }
+                ]
+            }
+        },
+		"ghast_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Ghast Head\"}}"
+                    }
+                ]
+            }
+        },
+		"guardian_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Guardian Head\"}}"
+                    }
+                ]
+            }
+        },
+		"horse_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Horse Head\"}}"
+                    }
+                ]
+            }
+        },
+		"iron_golem_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Iron Golem Head\"}}"
+                    }
+                ]
+            }
+        },
+		"white_llama_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"White Llama Head\"}}"
+                    }
+                ]
+            }
+        },
+		"gray_llama_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Gray Llama Head\"}}"
+                    }
+                ]
+            }
+        },
+		"brown_llama_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Brown Llama Head\"}}"
+                    }
+                ]
+            }
+        },
+		"creamy_llama_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Creamy Llama Head\"}}"
+                    }
+                ]
+            }
+        },
+		"magma_cube_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Magma Cube Head\"}}"
+                    }
+                ]
+            }
+        },
+		"mooshroom_cow_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Mooshroom Head\"}}"
+                    }
+                ]
+            }
+        },
+		"ocelot_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Ocelot Head\"}}"
+                    }
+                ]
+            }
+        },
+		"black_cat_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Black Cat Head\"}}"
+                    }
+                ]
+            }
+        },
+		"ginger_cat_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Ginger Cat Head\"}}"
+                    }
+                ]
+            }
+        },
+		"siamese_cat_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Siamese Cat Head\"}}"
+                    }
+                ]
+            }
+        },
+		"pig_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Pig Head\"}}"
+                    }
+                ]
+            }
+        },
+		"polar_bear_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Polar Bear Head\"}}"
+                    }
+                ]
+            }
+        },
+		"rabbit_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Rabbit Head\"}}"
+                    }
+                ]
+            }
+        },
+		"shulker_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Shulker Head\"}}"
+                    }
+                ]
+            }
+        },
+		"slime_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Slime Head\"}}"
+                    }
+                ]
+            }
+        },
+		"snowman_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Snowman Head\"}}"
+                    }
+                ]
+            }
+        },
+		"spider_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Spider Head\"}}"
+                    }
+                ]
+            }
+        },
+		"squid_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Squid Head\"}}"
+                    }
+                ]
+            }
+        },
+		"villager_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Villager Head\"}}"
+                    }
+                ]
+            }
+        },
+		"vindication_illager_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Vindicator Head\"}}"
+                    }
+                ]
+            }
+        },
+		"chicken_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Chicken Head\"}}"
+                    }
+                ]
+            }
+        },
+		"wolf_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Wolf Head\"}}"
+                    }
+                ]
+            }
+        },
+		"zombie_pigman_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Zombie Pigman Head\"}}"
+                    }
+                ]
+            }
+        },
+		"zombie_librarian_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Zombie Librarian Head\"}}"
+                    }
+                ]
+            }
+        },
+		"zombie_butcher_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Zombie Butcher Head\"}}"
+                    }
+                ]
+            }
+        },
+		"zombie_priest_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Zombie Priest Head\"}}"
+                    }
+                ]
+            }
+        },
+		"zombie_smith_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Zombie Smith Head\"}}"
+                    }
+                ]
+            }
+        },
+		"zombie_farmer_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Zombie Farmer Head\"}}"
+                    }
+                ]
+            }
+        },
+		"zombie_nitwit_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Zombie Nitwit Head\"}}"
+                    }
+                ]
+            }
+        },
+		"black_sheep_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Black Sheep Head\"}}"
+                    }
+                ]
+            }
+        },
+		"blue_sheep_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Blue Sheep Head\"}}"
+                    }
+                ]
+            }
+        },
+		"brown_sheep_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Brown Sheep Head\"}}"
+                    }
+                ]
+            }
+        },
+		"cyan_sheep_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Cyan Sheep Head\"}}"
+                    }
+                ]
+            }
+        },
+		"gray_sheep_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Gray Sheep Head\"}}"
+                    }
+                ]
+            }
+        },
+		"green_sheep_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Green Sheep Head\"}}"
+                    }
+                ]
+            }
+        },
+		"light_blue_sheep_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Light Blue Sheep Head\"}}"
+                    }
+                ]
+            }
+        },
+		"lime_sheep_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Lime Sheep Head\"}}"
+                    }
+                ]
+            }
+        },
+		"magenta_sheep_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Magenta Sheep Head\"}}"
+                    }
+                ]
+            }
+        },
+		"orange_sheep_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Orange Sheep Head\"}}"
+                    }
+                ]
+            }
+        },
+		"pink_sheep_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Pink Sheep Head\"}}"
+                    }
+                ]
+            }
+        },
+		"purple_sheep_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Purple Sheep Head\"}}"
+                    }
+                ]
+            }
+        },
+		"red_sheep_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Red Sheep Head\"}}"
+                    }
+                ]
+            }
+        },
+		"silver_sheep_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Silver Sheep Head\"}}"
+                    }
+                ]
+            }
+        },
+		"white_sheep_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"White Sheep Head\"}}"
+                    }
+                ]
+            }
+        },
+		"yellow_sheep_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Yellow Sheep Head\"}}"
+                    }
+                ]
+            }
+        },
+		"fish_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Fish Head\"}}"
+                    }
+                ]
+            }
+        },
+		"salmon_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Salmon Head\"}}"
+                    }
+                ]
+            }
+        },
+		"clownfish_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Clownfish Head\"}}"
+                    }
+                ]
+            }
+        },
+		"pufferfish_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:skull",
+						"data": 3,
+						"nbt": "{display:{LocName:\"Pufferfish Head\"}}"
+                    }
+                ]
+            }
+        }
+    }
+}

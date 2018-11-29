@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:noteblock"
+        },
+        "title": "Musical Genius",
+        "description": "Place 256 noteblocks",
+		"frame": "challenge"
+    },
+    "parent": "Badgercrafting:root",
+    "criteria": 
+	{
+        "place_noteblocks": 
+		{
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards":
+	{
+		"loot":["badgercrafting:advancements/musical_genius"],
+		"function":"badgercrafting:advancements/small_increase_border"
+	}
+}

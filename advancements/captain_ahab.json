@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:sponge"
+        },
+        "title": "Captain Ahab",
+        "description": "Slay 30 elder guardians",
+		"frame": "challenge"
+    },
+    "parent": "Badgercrafting:how_did_you_get_there",
+    "criteria": 
+	{
+        "place_noteblocks": 
+		{
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards":
+	{
+		"loot":["badgercrafting:advancements/captain_ahab"],
+		"function":"badgercrafting:advancements/small_increase_border"
+	}
+}

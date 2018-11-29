@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 256,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:sponge",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

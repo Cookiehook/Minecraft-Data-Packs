@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:brick_block"
+        },
+        "title": "Industrial Age",
+		"frame": "goal",
+        "description": "Collectively place 10,000 blocks"
+    },
+    "parent": "Badgercrafting:AgeOfAdvancements/dragon_age",
+    "criteria": 
+	{
+        "place_blocks": 
+		{
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards":
+	{
+		"function":"badgercrafting:advancements/increase_border"
+	}
+}

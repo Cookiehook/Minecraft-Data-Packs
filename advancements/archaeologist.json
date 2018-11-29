@@ -1,0 +1,67 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stonebrick",
+			"data": 1
+        },
+        "title": "Archaeologist",
+        "description": "Explore all of Minecraft's structures",
+		"frame": "challenge"
+    },
+	"rewards":
+	{
+		"loot":["badgercrafting:advancements/archaeologist"],
+		"function":"badgercrafting:advancements/small_increase_border"
+	},
+    "parent": "Badgercrafting:off_with_their_heads",
+    "criteria": {
+        "fortress": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Fortress"
+            }
+        },
+		"endcity": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "EndCity"
+            }
+        },
+		"mansion": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Mansion"
+            }
+        },
+		"mineshaft": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Mineshaft"
+            }
+        },
+		"monument": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Momument"
+            }
+        },
+		"stronghold": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Stronghold"
+            }
+        },
+		"temple": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Temple"
+            }
+        },
+		"village": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Village"
+            }
+        }
+    }
+}

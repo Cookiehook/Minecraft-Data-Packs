@@ -1,0 +1,50 @@
+Breaking Text
+{
+    "display": 
+	{
+		"icon": 
+		{
+            "item": "minecraft:snowball"
+        },
+        "title": "Snowballs of Fury",
+        "description": "Kill a blaze with a snowman"
+    },
+    "parent": "Badgercrafting:root",
+	"rewards":
+	{
+		"function":"badgercrafting:advancements/small_increase_border"
+	}
+    "criteria": 
+	{
+		"summon_snowman": 
+		{
+			"trigger": "minecraft:summoned_entity",
+			"conditions": 
+			{
+				"entity": 
+				{
+					"type": "minecraft:snowman"
+				}
+			}
+		},
+		"kill_blaze": 
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": 
+			{
+				"entity": 
+				{
+					"type": "blaze"
+				},
+				"killing_blow":
+				{
+					"source_entity":
+					{
+						"type": "player"
+					}
+					
+				}
+			}
+		}
+    }
+}

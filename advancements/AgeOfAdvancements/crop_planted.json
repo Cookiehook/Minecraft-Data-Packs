@@ -1,0 +1,99 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_hoe"
+        },
+        "title": "Plant a crop",
+        "description": "Plant a crop",
+		"show_toast": false,
+        "announce_to_chat": false,
+		"hidden": true
+    },
+    "criteria": {
+        "wheat": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:wheat"
+            }
+        },
+        "pumpkin_stem": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:pumpkin_stem"
+            }
+        },
+        "melon_stem": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:melon_stem"
+            }
+        },
+        "beetroots": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:beetroots"
+            }
+        },
+        "nether_wart": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:nether_wart"
+            }
+        },
+		"carrot": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:carrots"
+            }
+        },
+		"potato": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:potatoes"
+            }
+        },
+		"cocoa": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:cocoa"
+            }
+        },
+		"cactus": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:cactus"
+            }
+        },
+		"reeds": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:reeds"
+            }
+        },
+		"chorus_flower": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:chorus_flower"
+            }
+        }
+    },
+	"rewards":
+	{
+		"function":"badgercrafting:advancements/agricultural_age"
+	},
+    "requirements": [
+        [
+            "wheat",
+            "pumpkin_stem",
+            "melon_stem",
+            "beetroots",
+            "nether_wart",
+			"carrot",
+			"potato",
+			"cocoa",
+			"cactus",
+			"reeds",
+			"chorus_flower"
+        ]
+    ]
+}

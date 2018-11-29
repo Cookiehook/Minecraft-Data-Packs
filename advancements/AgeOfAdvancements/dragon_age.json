@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "title": "Dragon Age",
+		"frame": "goal",
+        "description": "Collectively mine 1,000 precious minerals"
+    },
+    "parent": "Badgercrafting:AgeOfAdvancements/dwarven_age",
+    "criteria": 
+	{
+        "place_blocks": 
+		{
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards":
+	{
+		"function":"badgercrafting:advancements/increase_border"
+	}
+}

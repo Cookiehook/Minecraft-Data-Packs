@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "title": "Dwarven Age",
+		"frame": "goal",
+        "description": "Collectively mine 20,000 stone blocks"
+    },
+    "parent": "Badgercrafting:AgeOfAdvancements/agricultural_age",
+    "criteria": 
+	{
+        "place_blocks": 
+		{
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards":
+	{
+		"function":"badgercrafting:advancements/increase_border"
+	}
+}

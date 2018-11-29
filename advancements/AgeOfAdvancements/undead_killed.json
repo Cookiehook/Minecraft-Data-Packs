@@ -1,0 +1,106 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": "Kill an undead mob",
+        "description": "Kill an undead mob",
+		"show_toast": false,
+        "announce_to_chat": false,
+		"hidden": true
+    },
+    "criteria": {
+        "zombie": 
+			{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": 
+				{
+                   "entity": 
+					{
+						"type": "zombie"
+					}
+				}
+            },
+		"husk": 
+			{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": 
+				{
+                   "entity": 
+					{
+						"type": "husk"
+					}
+				}
+            },
+		"zombie_pigman": 
+			{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": 
+					{
+                   "entity": 
+						{
+						"type": "zombie_pigman"
+						}
+					}
+            },
+		"zombie_villager": 
+			{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": 
+					{
+                   "entity": 
+						{
+						"type": "zombie_villager"
+						}
+					}
+            },
+		"skeleton": 
+			{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": 
+					{
+                   "entity": 
+						{
+						"type": "skeleton"
+						}
+					}
+            },
+		"stray": 
+		{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": 
+					{
+                   "entity": 
+						{
+						"type": "stray"
+						}
+					}
+            },
+		"wither_skeleton": 
+		{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": 
+					{
+                   "entity": 
+						{
+						"type": "wither_skeleton"
+						}
+					}
+            }
+		},
+	"rewards":
+	{
+		"function":"badgercrafting:advancements/crusaders_age"
+	},
+    "requirements": [
+        [
+            "zombie",
+            "husk",
+            "zombie_pigman",
+            "zombie_villager",
+            "skeleton",
+			"stray",
+			"wither_skeleton"
+        ]
+    ]
+}

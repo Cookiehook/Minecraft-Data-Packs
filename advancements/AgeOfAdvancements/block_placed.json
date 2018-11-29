@@ -1,0 +1,23 @@
+{
+    "display": {
+		"icon": {
+            "item": "minecraft:stone"
+        },
+        "title": "Place a block",
+        "description": "Place a block",
+		"show_toast": false,
+        "announce_to_chat": false,
+		"hidden": true
+    },
+    "criteria": 
+	{
+        "place_blocks": 
+		{
+            "trigger": "minecraft:placed_block"
+        }
+    },
+	"rewards":
+	{
+		"function":"badgercrafting:advancements/industrial_age"
+	}
+}

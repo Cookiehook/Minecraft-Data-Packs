@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": "Crusaders Age",
+		"frame": "goal",
+        "description": "Collectively kill 5000 undead mobs"
+    },
+    "parent": "Badgercrafting:AgeOfAdvancements/industrial_age",
+    "criteria": 
+	{
+        "place_blocks": 
+		{
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards":
+	{
+		"function":"badgercrafting:advancements/increase_border"
+	}
+}

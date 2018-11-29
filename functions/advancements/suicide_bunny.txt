@@ -1,0 +1,1 @@
+setblock ~ ~ ~ minecraft:chest 2 replace {CustomName:"Suicide Bunny Rewards",LootTable:"Badgercrafting:advancements/suicide_bunny"}

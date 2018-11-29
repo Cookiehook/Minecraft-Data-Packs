@@ -1,0 +1,35 @@
+{
+    "display": 
+	{
+		"icon": 
+		{
+            "item": "minecraft:purple_shulker_box"
+        },
+        "title": "How did you get there?",
+        "description": "Get hit by a shulker in the nether...",
+		"frame": "challenge"
+    },
+    "parent": "Badgercrafting:archaeologist",
+	"rewards":
+	{
+		"loot":["badgercrafting:advancements/how_did_you_get_there"],
+		"function":"badgercrafting:advancements/small_increase_border"
+	},
+       "criteria": {
+           "example": {
+               "trigger": "minecraft:entity_hurt_player",
+               "conditions": {
+                   "damage": {
+                       "source_entity": 
+					   {
+                           "type": "shulker",
+						   "location":
+							{
+								"dimension": "the_nether"
+							}
+                       }
+                   }
+               }
+           }
+       }
+}

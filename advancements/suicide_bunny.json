@@ -1,0 +1,250 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple",
+			"data": 1
+        },
+        "title": "Suicide Bunny",
+        "description": "Be killed by every hostile mob",
+		"frame": "challenge"
+    },
+	"parent": "Badgercrafting:musical_genius",
+	"rewards":
+	{
+		"function":"badgercrafting:suicide_bunny"
+	},
+    "criteria": {
+        "cave_spider": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "cave_spider"
+                }
+            }
+        },
+        "spider": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "spider"
+                }
+            }
+        },
+        "zombie_pigman": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_pigman"
+                }
+            }
+        },
+        "enderman": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "enderman"
+                }
+            }
+        },
+        "polar_bear": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "polar_bear"
+                }
+            }
+        },
+        "blaze": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "blaze"
+                }
+            }
+        },
+        "creeper": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "creeper"
+                }
+            }
+        },
+        "evoker": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "evocation_illager"
+                }
+            }
+        },
+        "ghast": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "ghast"
+                }
+            }
+        },
+        "guardian": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "guardian"
+                }
+            }
+        },
+		"elder_guardian": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "elder_guardian"
+                }
+            }
+        },
+        "husk": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "husk"
+                }
+            }
+        },
+        "magma_cube": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "magma_cube"
+                }
+            }
+        },
+        "shulker": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "shulker"
+                }
+            }
+        },
+        "silverfish": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "silverfish"
+                }
+            }
+        },
+        "skeleton": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "skeleton"
+                }
+            }
+        },
+        "slime": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "slime"
+                }
+            }
+        },
+        "stray": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "stray"
+                }
+            }
+        },
+        "vindicator": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "vindication_illager"
+                }
+            }
+        },
+		"vex": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "vex"
+                }
+            }
+        },
+        "witch": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "witch"
+                }
+            }
+        },
+        "wither_skeleton": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "wither_skeleton"
+                }
+            }
+        },
+		"endermite": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "endermite"
+                }
+            }
+        },
+        "zombie": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie"
+                }
+            }
+        },
+		"villager_golem": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "villager_golem"
+                }
+            }
+        },
+		"dragon": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "ender_dragon"
+                }
+            }
+        },
+		"wither": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "wither"
+                }
+            }
+        },
+		"player": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "player"
+                }
+            }
+        },
+        "zombie_villager": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "zombie_villager"
+                }
+            }
+        }
+    }
+}

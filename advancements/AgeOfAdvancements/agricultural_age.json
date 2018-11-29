@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wheat"
+        },
+        "title": "Agricultural Age",
+		"frame": "goal",
+        "description": "Collectively plant 2000 crops"
+    },
+    "parent": "Badgercrafting:root",
+    "criteria": 
+	{
+        "place_blocks": 
+		{
+            "trigger": "minecraft:impossible"
+        }
+    },
+	"rewards":
+	{
+		"function":"badgercrafting:advancements/increase_border"
+	}
+}

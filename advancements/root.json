@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {"item":"minecraft:cookie"},
+        "title": "Badgercrafting",
+        "description": "Like Minecraft, but with more Badgers",
+        "background": "minecraft:textures/blocks/prismarine_bricks.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crafting_table"
+                    }
+                ]
+            }
+        }
+    }
+}
